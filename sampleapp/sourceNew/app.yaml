@@ -4,6 +4,6 @@ threadsafe: true
 
 handlers:
 # site root
-- url: /
+- url: /*
   script: helloworld.app
   
