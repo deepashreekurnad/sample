@@ -3,7 +3,7 @@ import webapp2
 class HelloWebapp2(webapp2.RequestHandler):
     def get(self):
         self.response.write('Hello, webapp2!')
-        self.response.write("""<html><title>login page</title><body><form action="/action_page.php">
+        self.response.write("""<html><title>login page</title><body><form action="">
   <fieldset>
     <legend>Personal information:</legend>
     First name:<br>
