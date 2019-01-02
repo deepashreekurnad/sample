@@ -1,21 +1,4 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @deepashreekurnad Sign out
-106
-169 274 GoogleCloudPlatform/appengine-guestbook-python
- Code  Issues 3  Pull requests 3  Projects 0  Wiki  Insights
-appengine-guestbook-python/guestbook.py
-36448cb  on Apr 29, 2016
-@waprin waprin Add e2e test
-@tmatsuo @fredsa @gainward @waprin @rsamuelklatchko @theacodes
-     
-127 lines (98 sloc)  3.88 KB
 #!/usr/bin/env python
 
 # Copyright 2016 Google Inc.
@@ -141,16 +124,3 @@ app = webapp2.WSGIApplication([
     ('/sign', Guestbook),
 ], debug=True)
 # [END app]
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
